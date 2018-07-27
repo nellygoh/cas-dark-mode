@@ -1,6 +1,6 @@
 body { background: #202234; color: #f4fbfe; }
 
-a { color: #00aeff; border:2px dotted #a3a8b2; }
+a { color: #a3a8b2; }
 
 a:link, a:visited { color: #0073c0; }
 
@@ -843,6 +843,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 .c-message__sender .c-emoji__text_mode_icon { color: #f4fbfe; }
 
 .c-message__body { color: #00b9f2; }
+.c-message__body a { color: #00aeff; border:2px dotted #a3a8b2; }
 
 .c-message__body--unknown { background: rgba(40, 40, 40, 0.1); }
 

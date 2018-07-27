@@ -806,9 +806,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) { background: rgba(16, 16, 16, 0.1); }
 
-.c-message:hover .c-message__body--automated, .c-message--hover .c-message__body--automated .c-message--focus .c-message__body--automated { color: #1793d1; }
+.c-message:hover .c-message__body--automated, .c-message--hover .c-message__body--automated .c-message--focus .c-message__body--automated { color: #f4fbfe; }
 
-.c-message:hover .c-message__file_meta, .c-message--hover .c-message__file_meta .c-message--focus .c-message__file_meta { color: #1793d1; }
+.c-message:hover .c-message__file_meta, .c-message--hover .c-message__file_meta .c-message--focus .c-message__file_meta { color: #f4fbfe; }
 
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) { background: rgba(16, 16, 16, 0.1); }
 
@@ -822,11 +822,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message--custom_response .c-message__label__icon, .c-message--sli_highlight .c-message__label__icon { color: #00b9f2; }
 
-.c-message--sli_highlight .c-message__label .c-mrkdwn__member--link, .c-message--sli_highlight .c-message__label .c-mrkdwn__channel.internal_channel_link { color: #1793d1; }
+.c-message--sli_highlight .c-message__label .c-mrkdwn__member--link, .c-message--sli_highlight .c-message__label .c-mrkdwn__channel.internal_channel_link { color: #f4fbfe; }
 
 .c-message--sli_highlight_negative .c-message__label { background: rgba(16, 16, 16, 0.1); }
 
-.c-message--resend .c-message__body { color: #1793d1; }
+.c-message--resend .c-message__body { color: #f4fbfe; }
 
 .c-message--deleting { background: rgba(191, 54, 12, 0.6); }
 
@@ -834,63 +834,63 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message--unprocessed .c-message__body { animation: to-grey 50ms linear 10s forwards; }
 
-.c-message__broadcast_preamble_outer, .c-message__broadcast_preamble { color: #1793d1; }
+.c-message__broadcast_preamble_outer, .c-message__broadcast_preamble { color: #f4fbfe; }
 
 .c-message__sender { color: #00b9f2; }
 
 .c-message__sender a { color: #00b9f2; }
 
-.c-message__sender .c-emoji__text_mode_icon { color: #1793d1; }
+.c-message__sender .c-emoji__text_mode_icon { color: #f4fbfe; }
 
 .c-message__body { color: #00b9f2; }
 
 .c-message__body--unknown { background: rgba(40, 40, 40, 0.1); }
 
-.c-message__body--automated { color: #1793d1; }
+.c-message__body--automated { color: #f4fbfe; }
 
-.c-message__body--tombstone { color: #1793d1; }
+.c-message__body--tombstone { color: #f4fbfe; }
 
-.c-message__label { color: #1793d1; }
+.c-message__label { color: #f4fbfe; }
 
 .c-message__label__highlight_title { color: #00b9f2; }
 
-.c-message__label__highlight_positive, .c-message__label__highlight_negative { color: #1793d1; }
+.c-message__label__highlight_positive, .c-message__label__highlight_negative { color: #f4fbfe; }
 
 .c-message__label__highlight_positive--active, .c-message__label__highlight_negative--active { color: #00b9f2; }
 
-.c-message__resend_controls { color: #1793d1; }
+.c-message__resend_controls { color: #f4fbfe; }
 
 .c-message__resend_column { background-color: rgba(40, 40, 40, 0.1); }
 
 .c-message__resend, .c-message__cancel { color: #00b9f2; }
 
-.c-message__edited_label { color: #1793d1; }
+.c-message__edited_label { color: #f4fbfe; }
 
-.c-message__tombstone_icon { background: rgba(40, 40, 40, 0.1); color: #1793d1; }
+.c-message__tombstone_icon { background: rgba(40, 40, 40, 0.1); color: #f4fbfe; }
 
-.c-message__bot_label { background: rgba(40, 40, 40, 0.1); color: #1793d1; }
+.c-message__bot_label { background: rgba(40, 40, 40, 0.1); color: #f4fbfe; }
 
-.c-message__comment:before { color: #1793d1; }
+.c-message__comment:before { color: #f4fbfe; }
 
 .c-message__call_attachment { background: #000; border-color: rgba(40, 40, 40, 0.1); }
 
 .c-message__call_icon { color: #00b9f2; }
 
-.c-message__call--ended .c-message__call_icon { color: #1793d1; }
+.c-message__call--ended .c-message__call_icon { color: #f4fbfe; }
 
 .c-message__call_info { color: #00b9f2; }
 
 .c-message__call_name--linked { color: #00b9f2; }
 
-.c-message__call_name + .c-message__call_description::before { color: #1793d1; }
+.c-message__call_name + .c-message__call_description::before { color: #f4fbfe; }
 
-.c-message__call_sub { color: #1793d1; }
+.c-message__call_sub { color: #f4fbfe; }
 
 .c-message_actions__container { background: #000; border-color: #181818; }
 
 .c-message_actions__container:hover { border-color: #282828; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); }
 
-.c-message_actions__button { border-right-color: #181818; color: #1793d1; }
+.c-message_actions__button { border-right-color: #181818; color: #f4fbfe; }
 
 .c-message_actions__button:hover { color: #00b9f2; }
 
@@ -898,7 +898,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message_group { background-color: #000; border-color: #181818; }
 
-.c-message_group:hover .c-message_group__header { color: #1793d1; }
+.c-message_group:hover .c-message_group__header { color: #f4fbfe; }
 
 .c-message_group__header { color: #00b9f2; }
 
@@ -908,7 +908,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message_list__unread_divider__label { background: #000; box-shadow: 0 0 2px rgba(0, 0, 0, 0.25); color: #282828; }
 
-.c-message_list__spinner { color: #1793d1; }
+.c-message_list__spinner { color: #f4fbfe; }
 
 .c-message_list .c-scrollbar__bar { background: #202020; }
 
@@ -920,7 +920,7 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
 
 ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned) { background: rgba(16, 16, 16, 0.2); }
 
-ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-message.active .timestamp, ts-message.active.automated .message_body, ts-message.message--focus .edited, ts-message.message--focus .reply_bar .last_reply_at, ts-message.message--focus .timestamp, ts-message.message--focus.automated .message_body, ts-message:hover .edited, ts-message:hover .reply_bar .last_reply_at, ts-message:hover .timestamp, ts-message:hover.automated .message_body { color: #1793d1; }
+ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-message.active .timestamp, ts-message.active.automated .message_body, ts-message.message--focus .edited, ts-message.message--focus .reply_bar .last_reply_at, ts-message.message--focus .timestamp, ts-message.message--focus.automated .message_body, ts-message:hover .edited, ts-message:hover .reply_bar .last_reply_at, ts-message:hover .timestamp, ts-message:hover.automated .message_body { color: #f4fbfe; }
 
 ts-message.active .meta, ts-message.message--focus .meta, ts-message:hover .meta { color: #1793d1 !important; }
 

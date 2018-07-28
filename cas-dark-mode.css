@@ -688,7 +688,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #menu_items_scroller::-webkit-scrollbar-track { background: #272831 !important; }
 
-#limit_meter:hover #limit_meter_message_body { color: #00b9f2; }
+#limit_meter:hover #limit_meter_message_body { color: #525666; }
 
 #limit_meter_message_body { color: #525666; }
 
@@ -698,7 +698,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #client_body:not(.onboarding)::before { background: #2D2F38; border-bottom: 1px solid #2D2F38; box-shadow: none; }
 
-.messages_header { color: #00b9f2; }
+.messages_header { color: #525666; }
 
 .channel_title .channel_name_container .channel_name { color: #39b771; }
 
@@ -1289,11 +1289,11 @@ ts-message .reply_bar:hover { background: #12131D; border-color: #151622; }
 
 .inline_color_block { border-color: #282828; }
 
-.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #272831; }
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #12131D; }
 
-.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before { background: #272831 border-bottom: 1px solid #272831; }
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before { background: #12131D border-bottom: 1px solid #12131D; }
 
-.p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { box-shadow: 0 32px #272831; }
+.p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { box-shadow: 0 32px #12131D; }
 
 .p-message_pane__foreword__description, .p-message_pane__limited_history_alert { color: #00b9f2; }
 
@@ -4007,3 +4007,5 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 
 .c-avatar__emoji, .c-avatar__image, .c-team .c-team__icon, .c-unified_member .member_image, .c-usergroup .c-usergroup__icon{ border-radius: 5000px; }
 .presence.active{ color:#39b771; }
+
+#client_body:not(.onboarding):before{ background: #272831 ; }

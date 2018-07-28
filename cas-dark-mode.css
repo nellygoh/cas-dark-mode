@@ -56,7 +56,8 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #33beff; }
 
 .p-channel_sidebar { background-color: #202234; color: #525666; }
 
-.p-channel_sidebar__channel, .p-channel_sidebar__channel:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link, .p-channel_sidebar__link:link, .p-channel_sidebar__link:visited, .p-channel_sidebar__link:hover { color: #676d7f!important; }
+.p-channel_sidebar__channel { color: #676d7f!important; }
+.p-channel_sidebar__channel:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link, .p-channel_sidebar__link:link, .p-channel_sidebar__link:visited, .p-channel_sidebar__link:hover{ color: #ffffff!important; }
 
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__link--selected:hover { color: #0073c0; }
 
@@ -324,7 +325,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #202234; }
 
-#msg_form #msg_input { background: padding-box #282828; border-color: #202020; border-left: 0; color: #a3a8b2; }
+#msg_form #msg_input { background: #272831; border-color: #202020; border-left: 0; color: #a3a8b2; }
 
 #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #00aeff; }
 
@@ -356,13 +357,13 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_input_message { background-color: #202234; color: #0073c0; }
 
-#primary_file_button { background: padding-box #282828; border-color: #202020; color: #525666; }
+#primary_file_button { background: #272831; border-color: #202020; color: #525666; }
 
 #primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #202020; border-color: #202234; color: #0073c0; }
 
 #footer, #footer.footer_msg_input { background: #12131D; box-shadow: inset 1px 0 0 0 #12131D; }
 
-#footer.disabled #message-input, #footer.disabled #msg_input { background: padding-box #202234 !important; border-color: #202234 !important; }
+#footer.disabled #message-input, #footer.disabled #msg_input { background: #202234 !important; border-color: #202234 !important; }
 
 #footer_archives_table { color: #525666; }
 

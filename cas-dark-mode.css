@@ -68,7 +68,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #33beff; }
 
 .p-channel_sidebar__channel--im .c-presence--away { color: #525666; }
 
-.p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: #282828 !important; }
+.p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: #0073c0 !important; }
 
 .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover { background: #282828 !important; }
 
@@ -664,7 +664,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #team_menu { background: #202234; border-bottom: 2px solid #202234; color: #525666; }
 
-#team_menu.active, #team_menu:hover { background: #0073c0 !important; border-bottom-color: #0073c0 !important; }
+#team_menu.active, #team_menu:hover { background: #181926 !important; border-bottom-color: #181926 !important; }
 
 #team_menu.active i, #team_menu:hover i { color: #ffffff; }
 
@@ -798,7 +798,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message--hover .c-message__broadcast_preamble_outer .c-message--focus .c-message__broadcast_preamble_outer, .c-message--hover .c-message__broadcast_preamble_outer .c-message--focus .c-message__broadcast_preamble, .c-message--hover .c-message__broadcast_preamble .c-message--focus .c-message__broadcast_preamble_outer, .c-message--hover .c-message__broadcast_preamble .c-message--focus .c-message__broadcast_preamble { color: #525666; }
 
-.c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) { background: #272831; }
+.c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) { background: #0C0D13; }
 
 .c-message:hover .c-message__body--automated, .c-message--hover .c-message__body--automated .c-message--focus .c-message__body--automated { color: #f4fbfe; }
 

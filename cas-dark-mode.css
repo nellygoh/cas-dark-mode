@@ -397,9 +397,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .ql-placeholder, .texty_legacy .ql-placeholder { color: #a3a8b2; filter: none; opacity: .75; }
 
-.ql-container.texty_single_line_input { background: #272831; border: 1px solid #525666; color: #a3a8b2; }
+.ql-container.texty_single_line_input { background: transparent; border: 1px solid #525666; color: #526666; }
 
-.ql-container.texty_single_line_input.focus, .ql-container.texty_single_line_input:hover { border-color: #202234; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
+.ql-container.texty_single_line_input.focus, .ql-container.texty_single_line_input:hover { border-color: transparent; box-shadow: none; }
 
 .ts_toggle .ts_toggle_button { background: #151622; color: #0073c0; }
 
@@ -437,7 +437,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .menu .section_header > div.header_label_container { color: #525666; }
 
-.menu ul li a { background: #202234; border-bottom: 0; color: #0073c0; }
+.menu ul li a { background: #202234; border-bottom: 0; color: #a3a8b2; }
 
 .menu ul li a.delete_link { color: #bf360c; }
 
@@ -455,9 +455,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .menu ul li .menu_item_details { color: #525666; }
 
-.menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #00aeff; border-bottom-color: #151622; color: #0073c0; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
+.menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #181926; border-bottom-color: #151622; color: #a3a8b2; text-shadow: none; }
 
-.menu:not(.keyboard_active) ul li:hover:not(.disabled) a .menu_item_details, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a .prefix, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a i, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a ts-icon { color: #0073c0; }
+.menu:not(.keyboard_active) ul li:hover:not(.disabled) a .menu_item_details, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a .prefix, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a i, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a ts-icon { color: #676d7f; }
 
 .menu:not(.keyboard_active) ul li:hover:not(.disabled) a.delete_link { color: #bf360c; }
 
@@ -771,7 +771,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .search_form:hover { border-color: #303030; }
 
-.search_focused .search_form { border-color: #303030; }
+.search_focused .search_form { border-color: #a3a8b2; }
 
 .search_clear_icon .ts_icon_times_circle { color: #525666; }
 
@@ -4019,4 +4019,11 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 
 .c-unified_member__display-name--large, .c-unified_member__title--large{
     color: #525666;
+}
+
+.menu .section_header hr{
+    border-bottom: 1px solid #525666;
+}
+.member_image, .team_icon{
+    border-radius: 50%;
 }

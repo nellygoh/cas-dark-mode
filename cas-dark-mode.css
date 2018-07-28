@@ -324,7 +324,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #202234; }
 
-#msg_form #msg_input { background: padding-box #282828; border-color: #202020; border-left: 0; color: #0073c0; }
+#msg_form #msg_input { background: padding-box #282828; border-color: #202020; border-left: 0; color: #a3a8b2; }
 
 #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #00aeff; }
 
@@ -666,13 +666,13 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #team_menu.active, #team_menu:hover { background: #0073c0 !important; border-bottom-color: #0073c0 !important; }
 
-#team_menu.active i, #team_menu:hover i { color: #0073c0; }
+#team_menu.active i, #team_menu:hover i { color: #ffffff; }
 
 #team_menu i { color: #525666; }
 
 #team_menu .presence .presence_icon { text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 
-#team_menu .team_name_caret, #team_menu .notifications_menu_btn { color: #0073c0 !important; }
+#team_menu .team_name_caret, #team_menu .notifications_menu_btn { color: #676d7f !important; }
 
 #team_menu_user { color: #525666; }
 
@@ -700,7 +700,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .messages_header { color: #525666; }
 
-.channel_title .channel_name_container .channel_name { color: #39b771; }
+.channel_title .channel_name_container .channel_name { color: #a3a8b2; }
 
 .channel_title .channel_name_container .channel_name.muted { color: #525666; }
 
@@ -2229,7 +2229,7 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #client-ui .searchable_member_list .team_list_item:hover { background: #282828; }
 
-.c-unified_member__display-name, .c-unified_member__secondary-name, .c-unified_member__title, .c-unified_member__other-names, .c-unified_member__other-names { color: #0073c0 !important; }
+.c-unified_member__display-name, .c-unified_member__secondary-name, .c-unified_member__title, .c-unified_member__other-names, .c-unified_member__other-names { color: #525666 !important; }
 
 #convo_tab #convo_tab_btns .close_flexpane:focus, #convo_tab #convo_tab_btns .close_flexpane:hover { color: #0073c0; }
 

@@ -237,7 +237,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn_basic:focus, .btn_basic:hover { color: #0073c0; }
 
-.btn_outline { background: transparent; color: #525666 !important; border:1px solid #525666 !important; text-shadow: none !important;}
+.btn_outline { background: transparent; color: #525666 !important; border:1px solid #525666 !important; text-shadow: none !important; box-shadow: none !important;}
 
 
 .btn_outline.btn_transparent { color: rgba(40, 40, 40, 0.9) !important; }
@@ -4096,6 +4096,6 @@ ts-jumper .p-jumper__shortcut_pill{ background: #525666; }
 
 .btn.dialog_go.ladda-button.c-modal_footer__go--default{ background: #39b771; color: #ffffff !important; border: 1px solid transparent !important; }
 
-.supports_custom_scrollbar:not(.slim_scrollbar) .lazy_filter_select .lfs_list_container .lfs_list::-webkit-scrollbar{
+body::-webkit-scrollbar{
     background-color: transparent!important;
 }

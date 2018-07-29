@@ -4078,16 +4078,16 @@ input.c-input_select__filter_input{ background-color: transparent !important; bo
 
 #team_tab #member_preview_scroller .member_details .member_image.thumb_512{ border-radius: .25rem; }
 
-#select_invite_channels .lazy_filter_select .lfs_input_container.empty .lfs_input{ background: #D6D6DA; }
-#select_invite_channels .lazy_filter_select .lfs_input_container.empty .lfs_input::placeholder{ color: #a3a8b2; }
+.lazy_filter_select.select_invite_channels .lazy_filter_select .lfs_input_container.empty .lfs_input{ background: #D6D6DA; }
+.lazy_filter_select.select_invite_channels .lazy_filter_select .lfs_input_container.empty .lfs_input::placeholder{ color: #a3a8b2; }
 
-#select_invite_channels .lazy_filter_select .lfs_input_container.active, .lazy_filter_select .lfs_input_container:hover{
+.lazy_filter_select.select_invite_channels .lazy_filter_select .lfs_input_container.active, .lazy_filter_select .lfs_input_container:hover{
     background-color: #D6D6DA; border: #a3a8b2 ;
 }
 
-#select_invite_channels .btn_outline{ background: transparent !important; color: #a3a8b2 !important; border: 1px solid #a3a8b2 !important; }
-#select_invite_channels .btn_outline.hover, .btn_outline:focus, .btn_outline:hover{ background: transparent !important; color: #525666 !important; border: 1px solid #a3a8b2 !important;}
-#select_invite_channels .ladda-button .ladda-label{color: #a3a8b2 !important;  }
+.lazy_filter_select.select_invite_channels .btn_outline{ background: transparent !important; color: #a3a8b2 !important; border: 1px solid #a3a8b2 !important; }
+.lazy_filter_select.select_invite_channels .btn_outline.hover, .btn_outline:focus, .btn_outline:hover{ background: transparent !important; color: #525666 !important; border: 1px solid #a3a8b2 !important;}
+.lazy_filter_select.select_invite_channels .ladda-button .ladda-label{color: #a3a8b2 !important;  }
 ts-jumper .p-jumper__shortcut_pill{ background: #525666; }
 .c-menu{ background: #D6D6DA; }
 .c-menu_item__button, .c-menu_item__button:link, .c-menu_item__button:visited{ color: #525666; }

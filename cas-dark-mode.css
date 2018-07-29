@@ -840,9 +840,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message__body { color: #a3a8b2; }
 
-.c-message__body a { color: #00aeff; border-bottom:2px dotted #a3a8b2; }
+.c-message__body a { color: #005F9E; border-bottom:2px dotted #525666; text-decoration: none; font-weight:600;}
 
-.c-message__body a:hover { color: #33beff; text-decoration: none; }
+.c-message__body a:hover { color: #0073c0; text-decoration: none; }
 
 .c-message__body--unknown { background: rgba(40, 40, 40, 0.1); }
 

@@ -205,7 +205,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .input-append .add-on, .input-prepend .add-on { background-color: #303030; border: 1px solid #282828; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
 
-.btn { background-color: #282828; color: #0073c0 !important; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
+/* .btn { background-color: #282828; color: #0073c0 !important; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); } */
 
 .btn.hover, .btn:focus, .btn:hover, .btn.active, .btn:active { background-color: #282828; color: #0073c0; }
 
@@ -237,9 +237,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn_basic:focus, .btn_basic:hover { color: #0073c0; }
 
-.btn_outline { background: transparent; color: #525666 !important; border:1px solid #525666;}
+.btn_outline { background: transparent; color: #525666 !important; border:1px solid #525666 !important; text-shadow: none !important;}
 
-.btn_outline::after { border: 1px solid #525666; }
 
 .btn_outline.btn_transparent { color: rgba(40, 40, 40, 0.9) !important; }
 
@@ -4078,11 +4077,14 @@ input.c-input_select__filter_input{ background-color: transparent !important; bo
 
 #team_tab #member_preview_scroller .member_details .member_image.thumb_512{ border-radius: .25rem; }
 
-.lazy_filter_select.select_invite_channels .lazy_filter_select .lfs_input_container.empty .lfs_input{ background: #D6D6DA; }
-.lazy_filter_select.select_invite_channels .lazy_filter_select .lfs_input_container.empty .lfs_input::placeholder{ color: #a3a8b2; }
+.lazy_filter_select.select_invite_channels .lfs_input_container{ background-color: transparent; border-color: #a3a8b2; }
+.lazy_filter_select.select_invite_channels .lfs_input_container.empty .lfs_input{ background: #D6D6DA; }
+.lazy_filter_select.select_invite_channels .lfs_input_container.empty input[type='text']::-webkit-input-placeholder{ color: #525666 !important; }
+.lazy_filter_select.select_invite_channels .lfs_input_container.empty input[type='text']::-moz-placeholder{ color: #525666 !important; }
+.lazy_filter_select.select_invite_channels .lfs_input_container.empty input[type='text']::-placeholder{ color: #525666 !important; }
 
-.lazy_filter_select.select_invite_channels .lazy_filter_select .lfs_input_container.active, .lazy_filter_select .lfs_input_container:hover{
-    background-color: #D6D6DA; border: #a3a8b2 ;
+.lazy_filter_select.select_invite_channels .lfs_input_container.active, .lazy_filter_select .lfs_input_container:hover{
+    background-color: #D6D6DA; border-color: #a3a8b2 ;
 }
 
 .lazy_filter_select.select_invite_channels .btn_outline{ background: transparent !important; color: #a3a8b2 !important; border: 1px solid #a3a8b2 !important; }
@@ -4091,3 +4093,9 @@ input.c-input_select__filter_input{ background-color: transparent !important; bo
 ts-jumper .p-jumper__shortcut_pill{ background: #525666; }
 .c-menu{ background: #D6D6DA; }
 .c-menu_item__button, .c-menu_item__button:link, .c-menu_item__button:visited{ color: #525666; }
+
+.btn.dialog_go.ladda-button.c-modal_footer__go--default{ background: #39b771; color: #ffffff !important; border: 1px solid transparent !important; }
+
+.supports_custom_scrollbar:not(.slim_scrollbar) .lazy_filter_select .lfs_list_container .lfs_list::-webkit-scrollbar{
+    background-color: transparent!important;
+}

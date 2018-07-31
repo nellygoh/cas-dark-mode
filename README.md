@@ -26,3 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
 4. Go back to your Slack app, and press <kbd>Ctrl</kbd> + <kbd>R</kbd> on your keyboard to see the change OR restart your slack.
 
 Enjoy :sunglasses:
+
+## Theme Preview
+![cas-dark-mode](https://raw.githubusercontent.com/nellywg/cas-dark-mode/master/images/preview.png)

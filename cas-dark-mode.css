@@ -456,7 +456,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .menu ul li .menu_item_details { color: #525666; }
 
-.menu ul li a:not(.inline_menu_link){  color: #a3a8b2;}
+[lang] .menu ul li a:not(.inline_menu_link){ color: #a3a8b2!important;}
 
 .menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #181926; border-bottom-color: #151622; color: #a3a8b2; text-shadow: none; }
 

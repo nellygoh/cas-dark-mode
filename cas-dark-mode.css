@@ -795,7 +795,6 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #col_messages { box-shadow: inset 1px 0 0 0 #12131D; }
 
-.c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .mention_yellow_bg { color: #525666 !important; }
 
 .c-message:hover .c-message__broadcast_preamble_outer, .c-message:hover .c-message__broadcast_preamble { color: #525666; }
 
@@ -4174,3 +4173,5 @@ footer, #autocomplete_menu.search_menu footer.unified{ background-color: #12131d
 .p-workspace__input .p-message_input_field .ql-placeholder, .c-texty_input .ql-blank~.ql-placeholder, .c-label--inline .c-label__text{color: #a3a8b2;}
 .p-classic_nav__model__title__name--dim{color: #525666;}
 .p-multi_file_upload__file_gallery{background: #202234;}
+
+.c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .mention_yellow_bg { color: #ffffff; background:#cc4b37; border-radius: 5000px; padding: 1px 5px 3px; }
